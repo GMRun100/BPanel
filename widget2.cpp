@@ -29,15 +29,16 @@ void Widget2::on_pushButton_back_clicked()
 
 void Widget2::updateValue()
 {
-    ui->label_d1_p->setText( QString::number(getValueByName("D1/power").toFloat()/1000) );
+
+    ui->label_d1_p->setText( QString::number(getValueByName("D1/power").toFloat()/1000,'e',3));
     //QMessageBox::warning(NULL,"test",ui->label_d1_p->text());
-    ui->label_d2_p->setText(QString::number( getValueByName("D2/power").toFloat()/1000) );
-    ui->label_d4_p->setText( QString::number(getValueByName("D4/power").toFloat()/1000) );
-    ui->label_d5_p->setText( QString::number(getValueByName("D5/power").toFloat()/1000) );
-    ui->label_d6_p->setText(QString::number( getValueByName("D6/power").toFloat()/1000) );
-    ui->label_d7_p->setText( QString::number(getValueByName("D7/power").toFloat()/1000));
-    ui->label_d8_p->setText( QString::number(getValueByName("D8/power").toFloat()/1000) );
-    ui->label_d14_p->setText( QString::number(getValueByName("D14/power").toFloat()/1000) );
+    ui->label_d2_p->setText(QString::number( getValueByName("D2/power").toFloat()/1000,'e',3));
+    ui->label_d4_p->setText( QString::number(getValueByName("D4/power").toFloat()/1000,'e',3));
+    ui->label_d5_p->setText( QString::number(getValueByName("D5/power").toFloat()/1000,'e',3));
+    ui->label_d6_p->setText(QString::number( getValueByName("D6/power").toFloat()/1000,'e',3));
+    ui->label_d7_p->setText( QString::number(getValueByName("D7/power").toFloat()/1000,'e',3));
+    ui->label_d8_p->setText( QString::number(getValueByName("D8/power").toFloat()/1000,'e',3));
+    ui->label_d14_p->setText( QString::number(getValueByName("D14/power").toFloat()/1000,'e',3));
 
     ui->label_d1_k1->setText( getValueByName("D1/k1") );
     ui->label_d2_k1->setText( getValueByName("D2/k1") );
