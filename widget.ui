@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1224</width>
-    <height>556</height>
+    <width>1920</width>
+    <height>1080</height>
    </rect>
   </property>
   <property name="palette">
@@ -97,7 +97,7 @@
        <property name="font">
         <font>
          <family>Times New Roman</family>
-         <pointsize>18</pointsize>
+         <pointsize>22</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -368,7 +368,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
        <property name="font">
         <font>
          <family>Times New Roman</family>
-         <pointsize>18</pointsize>
+         <pointsize>22</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -626,7 +626,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
        <property name="font">
         <font>
          <family>Times New Roman</family>
-         <pointsize>18</pointsize>
+         <pointsize>22</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -651,135 +651,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
         <string/>
        </property>
        <layout class="QGridLayout" name="gridLayout_3">
-        <item row="0" column="0">
-         <layout class="QHBoxLayout" name="horizontalLayout_6">
-          <item>
-           <spacer name="horizontalSpacer_13">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_channelA">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="font">
-             <font>
-              <family>Times New Roman</family>
-              <pointsize>12</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>A通道</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <spacer name="horizontalSpacer_14">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_ChannelB">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="font">
-             <font>
-              <family>Times New Roman</family>
-              <pointsize>12</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>B通道</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <spacer name="horizontalSpacer_15">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_ChannelC">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="font">
-             <font>
-              <family>Times New Roman</family>
-              <pointsize>12</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>C通道</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <spacer name="horizontalSpacer_16">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-         </layout>
-        </item>
-        <item row="3" column="0">
+        <item row="7" column="0">
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
            <spacer name="horizontalSpacer_4">
@@ -811,6 +683,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
             <property name="font">
              <font>
               <family>Times New Roman</family>
+              <pointsize>20</pointsize>
              </font>
             </property>
             <property name="autoFillBackground">
@@ -862,6 +735,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
             <property name="font">
              <font>
               <family>Times New Roman</family>
+              <pointsize>20</pointsize>
              </font>
             </property>
             <property name="autoFillBackground">
@@ -913,6 +787,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
             <property name="font">
              <font>
               <family>Times New Roman</family>
+              <pointsize>20</pointsize>
              </font>
             </property>
             <property name="autoFillBackground">
@@ -949,7 +824,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
           </item>
          </layout>
         </item>
-        <item row="1" column="0">
+        <item row="3" column="0">
          <layout class="QHBoxLayout" name="horizontalLayout_5">
           <item>
            <spacer name="horizontalSpacer">
@@ -970,16 +845,28 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
              <bool>false</bool>
             </property>
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
             <property name="minimumSize">
              <size>
-              <width>120</width>
+              <width>50</width>
               <height>0</height>
              </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+             </font>
             </property>
             <property name="maxLength">
              <number>10</number>
@@ -992,10 +879,16 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
           <item>
            <widget class="QLabel" name="label_5">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+             </font>
             </property>
             <property name="text">
              <string>kW</string>
@@ -1034,9 +927,15 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
             </property>
             <property name="maximumSize">
              <size>
-              <width>80</width>
-              <height>16777215</height>
+              <width>200</width>
+              <height>70</height>
              </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+             </font>
             </property>
             <property name="maxLength">
              <number>10</number>
@@ -1049,10 +948,16 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
           <item>
            <widget class="QLabel" name="label_6">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+             </font>
             </property>
             <property name="text">
              <string>kW</string>
@@ -1083,6 +988,18 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
             <property name="maxLength">
              <number>10</number>
             </property>
@@ -1094,10 +1011,16 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
           <item>
            <widget class="QLabel" name="label">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+             </font>
             </property>
             <property name="text">
              <string>kW</string>
@@ -1119,7 +1042,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
           </item>
          </layout>
         </item>
-        <item row="2" column="0">
+        <item row="5" column="0">
          <layout class="QHBoxLayout" name="horizontalLayout_4">
           <item>
            <spacer name="horizontalSpacer_11">
@@ -1140,7 +1063,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
              <bool>false</bool>
             </property>
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -1153,14 +1076,14 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
             </property>
             <property name="maximumSize">
              <size>
-              <width>80</width>
-              <height>16777215</height>
+              <width>200</width>
+              <height>70</height>
              </size>
             </property>
             <property name="font">
              <font>
               <family>Times New Roman</family>
-              <pointsize>14</pointsize>
+              <pointsize>18</pointsize>
              </font>
             </property>
             <property name="styleSheet">
@@ -1181,6 +1104,12 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+             </font>
             </property>
             <property name="text">
              <string>kW</string>
@@ -1206,7 +1135,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
              <bool>false</bool>
             </property>
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -1219,14 +1148,14 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
             </property>
             <property name="maximumSize">
              <size>
-              <width>80</width>
-              <height>16777215</height>
+              <width>200</width>
+              <height>70</height>
              </size>
             </property>
             <property name="font">
              <font>
               <family>Times New Roman</family>
-              <pointsize>14</pointsize>
+              <pointsize>18</pointsize>
              </font>
             </property>
             <property name="styleSheet">
@@ -1247,6 +1176,12 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+             </font>
             </property>
             <property name="text">
              <string>kW</string>
@@ -1272,7 +1207,7 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
              <bool>false</bool>
             </property>
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -1285,14 +1220,14 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
             </property>
             <property name="maximumSize">
              <size>
-              <width>80</width>
-              <height>16777215</height>
+              <width>200</width>
+              <height>70</height>
              </size>
             </property>
             <property name="font">
              <font>
               <family>Times New Roman</family>
-              <pointsize>14</pointsize>
+              <pointsize>18</pointsize>
              </font>
             </property>
             <property name="styleSheet">
@@ -1314,6 +1249,12 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>kW</string>
             </property>
@@ -1333,6 +1274,217 @@ border-top-left-radius:16px;border-bottom-right-radius:16px;  border-top-right-r
            </spacer>
           </item>
          </layout>
+        </item>
+        <item row="2" column="0">
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="0">
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="4" column="0">
+         <spacer name="verticalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="1,2,1,2,1,2,1">
+          <item>
+           <spacer name="horizontalSpacer_13">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_channelA">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>A通道</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_14">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_ChannelB">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>B通道</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_15">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_ChannelC">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>18</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>C通道</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_16">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item row="6" column="0">
+         <spacer name="verticalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="8" column="0">
+         <spacer name="verticalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
         </item>
        </layout>
       </widget>
