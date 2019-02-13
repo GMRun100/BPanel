@@ -1154,7 +1154,7 @@ public:
         label_d14_k2->setText(QApplication::translate("Widget2", "0", Q_NULLPTR));
         pushButton_D14_CAL_K2->setText(QApplication::translate("Widget2", "Cal K2", Q_NULLPTR));
         pushButton_d14->setText(QApplication::translate("Widget2", "Send", Q_NULLPTR));
-        groupBox_D1->setTitle(QApplication::translate("Widget2", "D5", Q_NULLPTR));
+        groupBox_D1->setTitle(QApplication::translate("Widget2", "D1", Q_NULLPTR));
         label_34->setText(QApplication::translate("Widget2", "K2:", Q_NULLPTR));
         label_d1_k2->setText(QApplication::translate("Widget2", "0", Q_NULLPTR));
         label_d1_k1->setText(QApplication::translate("Widget2", "0", Q_NULLPTR));

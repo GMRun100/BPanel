@@ -1513,7 +1513,7 @@
              </sizepolicy>
             </property>
             <property name="title">
-             <string>D5</string>
+             <string>D1</string>
             </property>
             <layout class="QGridLayout" name="gridLayout_16" columnstretch="0,3,2">
              <item row="2" column="0">
